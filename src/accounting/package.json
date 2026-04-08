@@ -1,0 +1,30 @@
+{
+  "name": "accounting-system",
+  "version": "1.0.0",
+  "description": "Node.js Account Management System (Modernized from COBOL)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest",
+    "test:watch": "NODE_OPTIONS=--experimental-vm-modules npx jest --watch",
+    "test:coverage": "NODE_OPTIONS=--experimental-vm-modules npx jest --coverage"
+  },
+  "keywords": [
+    "accounting",
+    "student-accounts",
+    "cobol-modernization"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "decimal.js": "^10.4.3",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.0",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  }
+}
